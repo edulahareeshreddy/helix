@@ -1,0 +1,42 @@
+.join-us-container {
+  .join-us-header {
+
+    .join-us-title {
+      font-size: 24px;
+      font-weight: 600;
+      color: #000000;
+      margin-bottom: 15px;
+    }
+
+    .join-us-subtitle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .join-us-subtitle-text {
+        font-size: 14px;
+        font-weight: 400;
+        color: #3a3a3a;
+      }
+
+    }
+  }
+
+  .join-us-content {
+    padding: 20px 0;
+  }
+
+  .join-us-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+    .actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}

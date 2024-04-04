@@ -1,0 +1,8 @@
+<div class="form-group">
+    <label class="fw-bold mb-2" [for]="name">{{label}}<span *ngIf="required" class="text-danger">&nbsp;*</span></label>
+    <br/>
+    <div class="form-check form-check-inline" *ngFor="let option of options">
+        <input class="form-check-input pr-2" type="radio" [id]="option.value" [name]="name" [value]="option.value" [required]="required">
+        <label class="form-check-label" [for]="option.value">{{option.label}}</label>
+    </div>
+</div>

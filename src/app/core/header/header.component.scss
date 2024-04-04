@@ -1,0 +1,18 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+
+  .logo-wrapper {
+    height: 45px;
+    width: auto;
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+}

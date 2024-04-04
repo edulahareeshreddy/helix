@@ -1,0 +1,30 @@
+@import "variables";
+
+// customise default theme
+
+
+// Custom variables
+$theme-colors: (
+  "primary": $primary,
+  "danger": #ff0000,
+);
+
+//button border radius
+$btn-border-radius: 5px;
+$btn-padding-x: 16px;
+$btn-padding-y: 5px;
+
+//card border radius
+$card-border-radius: 5px;
+$card-border-color: #fff;
+
+// Form Controls
+$form-check-input-checked-bg-color: $primary;
+$form-check-input-checked-border-color: $primary;
+
+// Form Select
+$form-select-border-radius: 5px;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+

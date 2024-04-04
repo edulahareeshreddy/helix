@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@import 'ngx-toastr/toastr';
+
+/* Importing Datepicker SCSS file. */
+@import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+@import "assets/styles/theming.scss"; // Custom theme
+
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  background: #F5F5F5;
+  font-family: 'Lato', sans-serif;
+}
+
+.card {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, .2), 0px 1px 1px 0px rgba(0, 0, 0, .14), 0px 1px 3px 0px rgba(0, 0, 0, .12);
+  padding: 10px;
+
+  .card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #E7E7E7;
+    margin-bottom: 5px;
+
+    .card-title {
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}
+
+.file-upload-wrapper {
+  border: 1px dashed $primary !important;
+  justify-content: center !important;
+
+  .file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+    .file-upload-icon {
+      margin-bottom: 10px;
+      img {
+        height: 30px;
+        width: 30px;
+      }
+    }
+
+    .file-upload-text {
+
+    }
+
+    .file-upload-subtext {
+
+    }
+  }
+
+  .file-preview-wrapper {
+    max-width: 100% !important;
+  }
+}

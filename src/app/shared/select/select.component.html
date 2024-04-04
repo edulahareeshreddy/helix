@@ -1,0 +1,6 @@
+<div class="form-group">
+    <label class="fw-bold mb-2" [for]="name">{{label}}<span *ngIf="required" class="text-danger">&nbsp;*</span></label>
+    <select class="form-select" [id]="name" [name]="name" [required]="required">
+        <option *ngFor="let option of options" [value]="option.value">{{option.label}}</option>
+    </select>
+</div>
